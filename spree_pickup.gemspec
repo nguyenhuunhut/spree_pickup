@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_pickup'
-  s.version     = '3.1.0'
+  s.version     = '4.1.0'
   s.summary     = 'User can select pickup location for any of the order'
   s.description = 'User can select pickup location for any of the order'
   s.required_ruby_version = '>= 2.1.0'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '>= 3.2.0', '< 4.0.0'
+  spree_version = '>= 4.0.0', '< 5.0.0'
 
   s.add_dependency 'spree_api',         spree_version
   s.add_dependency 'spree_backend',     spree_version
